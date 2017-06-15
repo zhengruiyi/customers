@@ -1,0 +1,51 @@
+.body{
+  margin: 0 0;
+}
+.title{
+  text-align: center;
+  font-family: Helvetica;
+  padding-bottom: 40px;
+}
+.customers{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: Helvetica;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.customer{
+  margin-bottom: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 20px;
+}
+.customer img{
+  width: 225px;
+}
+.full-name{
+  text-align: center;
+  margin: 5px 0px;
+  padding: 2px 0px;
+  text-decoration-line: underline;
+  /*border-bottom: solid 2px green;*/
+}
+.email{
+  margin: 10px;
+  font-weight: lighter;
+  text-align: center;
+  font-size: small;
+}
+.street{
+  font-size: small;
+  text-align: center;
+}
+.city-state-postcode{
+  font-size: small;
+  text-align: center;
+}
+.phone{
+  font-size: small;
+  text-align: center;
+}
